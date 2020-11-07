@@ -27,9 +27,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2d7f56e-55fd-4803-8864-dbb5816f63fd" name="Default Changelist" comment="New compilation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b2d7f56e-55fd-4803-8864-dbb5816f63fd" name="Default Changelist" comment="New compilation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +70,7 @@
       <workItem from="1604637793301" duration="626000" />
       <workItem from="1604669902118" duration="355000" />
       <workItem from="1604670293506" duration="116000" />
+      <workItem from="1604719545213" duration="804000" />
     </task>
     <task id="LOCAL-00001" summary="New compilation">
       <created>1604670383493</created>
@@ -105,10 +104,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="New compilation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="493" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604598689407">
-      <screen x="54" y="27" width="1312" height="741" />
+    <state x="496" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604719753516">
+      <screen x="58" y="27" width="1308" height="741" />
     </state>
     <state x="493" y="155" width="424" height="491" key="FileChooserDialogImpl/54.27.1312.741@54.27.1312.741" timestamp="1604598689407" />
+    <state x="496" y="155" key="FileChooserDialogImpl/58.27.1308.741@58.27.1308.741" timestamp="1604719753516" />
     <state x="206" y="31" width="1007" height="737" key="SettingsEditor" timestamp="1604637753704">
       <screen x="54" y="27" width="1312" height="741" />
     </state>
