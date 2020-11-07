@@ -8,6 +8,8 @@ int main()
     int e = 10000 + 1 + 6 + 3;
     int z = 10000 - (1 + 6 + 3);
     float c = 12.50;
+    char d = 'Y';
+    char j = 'N';
 
     printf("\n");
 
@@ -35,6 +37,12 @@ int main()
     printf("The Value of a+b-c is %f \n", a + b - c);
     printf("\n");
     printf("The programm compiled sucessfully, You have done it. \n");
+
+    printf("\n");
+
+    printf("Quit %c \n", d);
+    printf("Or \n");
+    printf("Stay Tuned %c \n", j);
 
     return 0;
 }
