@@ -1,17 +1,19 @@
 #include <stdio.h>
-/*
-This is my first c
-programm, which is awesome
-*/
+/* This program contains Integers, Real Variables
+& Character variables*/
 
-int main() {
-
+int main()
+{
     int a = 4;
-    // int b=7.5; //Not recommended beacuse 7.5 is not an integer, its a real variables
+    float b = 7.5;
+    char c = 'B';
 
-    float a = 7.5;
+    printf ("The Value of a is %d" ,a ); 
+    /*or*/
+    printf ("The Value of b is %f" ,b );
+    /*or*/
+    printf ("The Value of c is %c" ,c );
 
-    char a = 'B';
-    
+
     return 0;
 }
