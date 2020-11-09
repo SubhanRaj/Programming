@@ -13,5 +13,8 @@ int main()
      printf("The sum of a and b is %d", a + b);
      printf("\n");
 
-    return 0;
+     printf("The programm compiled sucessfully, You have done it. \n");
+     printf("\n");
+
+     return 0;
 }
