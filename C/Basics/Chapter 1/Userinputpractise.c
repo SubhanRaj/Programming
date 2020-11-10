@@ -13,7 +13,7 @@ int main()
     scanf("%d", &b);
 
     printf("\n");
-    printf("Your entered values of 'a' & 'b' are %d and %d \n", a, b);
+    printf("Your entered values of 'a' & 'b' are %d and %d . \n", a, b);
     printf("\n");
 
     printf("Enter any real variable for value of 'c'\n");
@@ -23,7 +23,7 @@ int main()
     scanf("%f", &d);
 
     printf("\n");
-    printf("Your entered values of 'c' & 'd' are %f and %f \n", c, d);
+    printf("Your entered values of 'c' & 'd' are %f and %f . \n", c, d);
     printf("\n");
 
     printf("\n");
@@ -39,9 +39,11 @@ int main()
     printf("and \n");
     printf("The Value of a+b+c+d is %f \n", a + b + c + d);
     printf("and \n");
-    printf("The Value of (a+b)/c is %f \n", (a + b)/ c);
+    printf("The Value of (a+b)/c is %f \n", (a + b) / c);
     printf("and \n");
     printf("The Value of [{(a+b)/c}*d] is %f \n", (a + b) / c * d);
+    printf("and \n");
+    printf("The Average Value of entered number is %f \n", (a + b + c + d) / 4);
 
     printf("\n");
     printf("The programm compiled sucessfully. \n");

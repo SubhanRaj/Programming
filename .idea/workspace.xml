@@ -28,7 +28,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2d7f56e-55fd-4803-8864-dbb5816f63fd" name="Default Changelist" comment="New compilation">
-      <change beforePath="$PROJECT_DIR$/C/Basics/Chapter 1/4input.c" beforeDir="false" afterPath="$PROJECT_DIR$/C/Basics/Chapter 1/4input.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C/Basics/Chapter 1/Practise01a.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +59,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.C/C++" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -81,6 +81,7 @@
       <workItem from="1604670293506" duration="116000" />
       <workItem from="1604719545213" duration="804000" />
       <workItem from="1604738946129" duration="86000" />
+      <workItem from="1604931395393" duration="105000" />
     </task>
     <task id="LOCAL-00001" summary="New compilation">
       <created>1604670383493</created>
@@ -114,9 +115,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="New compilation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="496" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604719753516">
-      <screen x="58" y="27" width="1308" height="741" />
+    <state x="428" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604931415050">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="428" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604931415050" />
+    <state x="457" y="126" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604931453272">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="457" y="126" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604931453272" />
     <state x="493" y="155" width="424" height="491" key="FileChooserDialogImpl/54.27.1312.741@54.27.1312.741" timestamp="1604598689407" />
     <state x="496" y="155" key="FileChooserDialogImpl/58.27.1308.741@58.27.1308.741" timestamp="1604719753516" />
     <state x="206" y="31" width="1007" height="737" key="SettingsEditor" timestamp="1604637753704">
