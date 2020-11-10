@@ -3,10 +3,10 @@
 
 int main(){
     
-    float radius = 12;
+    float radius = 3;
     float pie = 3.14;
 
-    printf("The are of circle for given radius is- %f", pie * radius * radius);
+    printf("The area of circle for given radius is- %f", pie * radius * radius);
     
     return 0;
 }
