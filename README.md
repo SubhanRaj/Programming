@@ -9,6 +9,6 @@
 * I can view, edit and publish my projects from anywhere 
 * I have a passion to promote and use open sourse software and resources, and GitHub is the home of that.
 * I don't have any fear of loosing my work, as it's on cluod, so I can acess it from anywhere.
-* If i want to tell some one and showcase my work, I can publish it throung GitHub pags
+* If I want to tell some one and showcase my work, I can publish it throung GitHub pags
 
-_**Now I think that it provides a brief intro, why all my scrappy work is online**
+**Now I think that it provides a brief intro, why all my scrappy work is online**
