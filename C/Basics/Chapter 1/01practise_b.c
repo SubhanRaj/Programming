@@ -1,5 +1,5 @@
 #include <stdio.h> 
-// This programm calculates are of rectange from inpput provided by user.
+// This programm calculates area of rectange from inpput provided by user.
 
 int main(){
     

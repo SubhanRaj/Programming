@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*This programm calculates the area of a circle and volue of cylinde whose base is the circle,
+/*This programm calculates the area of a circle and volume of cylinder whose base is the circle,
 providing value of Pie = 3.14*/
 
 int main()

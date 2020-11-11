@@ -1,5 +1,5 @@
 #include <stdio.h> 
-// This programm calculates are of rectange from Pre defined length & Breadth
+// This programm calculates area of rectange from Pre defined length & Breadth
 
 int main(){
     printf("\n");
