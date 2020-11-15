@@ -3,9 +3,9 @@
 
 int main()
 {
-    float a = 8.9;          // Type declaration instruction
-    float b = 1.1; // Type declaration instruction
-    float c = a + b;     //Type declaration instruction
+    float a = 8.9;   // Type declaration instruction
+    float b = 1.1;   // Type declaration instruction
+    float c = a + b; //Type declaration instruction
 
     printf("\n");
     printf("The value of numbers entered as variable a is %f \n,", a);
