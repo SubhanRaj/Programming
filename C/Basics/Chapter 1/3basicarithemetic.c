@@ -1,5 +1,5 @@
 #include <stdio.h>
-//This programm performs simple arthematic operations
+//This programm performs simple arithemetic operations
 
 int main()
 {
