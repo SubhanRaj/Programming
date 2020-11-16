@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// This C Programm calculates simple interes from user
+
 int main()
 {
 
@@ -24,6 +26,8 @@ int main()
     printf("and the final amount will be- %f\n", si + p);
 
     printf("\n");
+
+    
 
     return 0;
 }
