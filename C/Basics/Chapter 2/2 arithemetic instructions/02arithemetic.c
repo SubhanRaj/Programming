@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
@@ -43,6 +44,13 @@ int main()
 
     printf("The value of n  is %f\n", n);
     printf("\n");
+
+    printf ("When -5/2, reminder  %d\n", -5%2);
+
+    printf("the value of 4 to the power of 2 will be %f\n", pow(4,2));
+
+    printf ("value of 2 * 2 is %d\n" ,2 * 2 );
+
 
     return 0;
 }
