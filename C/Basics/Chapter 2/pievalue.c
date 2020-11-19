@@ -2,9 +2,9 @@
 
 int main()
 {
-    float a = 22;
-    float b = 7;
-    float pie = a / b;
+    double a = 22;
+    double b = 7;
+    double pie = a / b;
     
     printf("\n");
     printf("The value of Pie is %f\n", pie);
