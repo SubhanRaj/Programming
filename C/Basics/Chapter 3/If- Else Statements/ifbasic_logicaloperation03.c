@@ -9,7 +9,7 @@ int main()
 
     printf("\n");
     printf("Hi!!!\n");
-    printf("Welcome to NYC authority of Regulations\n");
+    printf("Welcome to authority of Regulations\n");
     printf("\n");
     printf("Do you want to drive in NYC?\n");
     printf("Please enter your age below to check weather you can drive or not-\n");
