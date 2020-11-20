@@ -1,12 +1,13 @@
-#include <stdio.h> 
+#include <stdio.h>
 
-int main(){
+int main()
+{
     int num;
 
     printf("\n");
     printf("Enter a real number\n");
     scanf("%d", &num);
-    
+    printf("\n");
 
     if (num == 1)
     {
@@ -52,7 +53,7 @@ int main(){
     {
         printf("Entered number is 100\n");
     }
-    else if (num > 10  && num < 100)
+    else if (num > 10 && num < 100)
     {
         printf("The entered number is above 10 and below 100\n");
     }
@@ -68,7 +69,8 @@ int main(){
     {
         printf("Enter below 10000\n");
     }
-    
+
+    printf("\n");
 
     return 0;
 }
