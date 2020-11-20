@@ -35,7 +35,7 @@ int main()
     }
     else
     {
-        printf("Thanks for visiting us\n");
+        printf("Than why are you here?\n");
     }
 
     return 0;
