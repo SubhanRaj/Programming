@@ -1,5 +1,5 @@
 #include <stdio.h>
-// This C Programm tells user that they can drive or not
+// This C Programm tells user that they can drive or not using basic if-else.
 
 int main()
 {
