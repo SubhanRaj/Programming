@@ -6,26 +6,36 @@ int main()
 {
     int age;
     int specialpass;
+    int mood;
 
     printf("\n");
     printf("Hi!!!\n");
     printf("Welcome to authority of Regulations\n");
     printf("\n");
-    printf("Do you want to drive in NYC?\n");
-    printf("Please enter your age below to check weather you can drive or not-\n");
-    scanf("%d", &age);
-
-    printf("Did you have any Special pass?\n");
-    printf("Enter 1 for 'yes and 2 for 'no'\n");
-    scanf("%d", &specialpass);
-
-    if (age >= 18 && age < 90 || specialpass == 1)
+    printf("Do you want to drive? \n");
+    printf("Enter 1 for 'yes' and 2 for 'no'\n");
+    scanf("%d", &mood);
+    if (mood == 1)
     {
-        printf("Congratulations You can drive\n");
+        printf("Please enter your age below to check weather you can drive or not-\n");
+        scanf("%d", &age);
+
+        printf("Did you have any Special pass?\n");
+        printf("Enter 1 for 'yes and 2 for 'no'\n");
+        scanf("%d", &specialpass);
+
+        if (age >= 18 && age < 90 || specialpass == 1)
+        {
+            printf("Congratulations You can drive\n");
+        }
+        else
+        {
+            printf("Sorry you cannot drive\n");
+        }
     }
     else
     {
-        printf("Sorry you cannot drive\n");
+        printf("Thanks for visiting us\n");
     }
 
     return 0;
