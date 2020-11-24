@@ -34,7 +34,7 @@ int main()
     printf("and your total percentage is %d \n", total);
     printf("\n");
 
-    if (total >= 40 || physics < 33 || chemistry < 33 || math < 33 || hindi < 33 || english < 33)
+    if (total < 40 || physics < 33 || chemistry < 33 || math < 33 || hindi < 33 || english < 33)
     {
         printf("You are failed in this test. \n");
         printf("\n");
