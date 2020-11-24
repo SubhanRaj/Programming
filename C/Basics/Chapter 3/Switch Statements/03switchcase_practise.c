@@ -10,8 +10,7 @@ int main()
 
     int hindi, english, physics, chemistry, math;
 
-    float total;
-    total = hindi + english + physics + chemistry + math / 5;
+    int total;
 
     printf("\n");
     printf("Welcome to result declaration system\n");
@@ -28,8 +27,22 @@ int main()
     printf("Enter marks obtained in English- \n");
     scanf("%d", &english);
 
+    total = (hindi + english + physics + chemistry + math) / 5;
+
     printf("Your marks in  physics, Chemisty, Math, Hindi and English are %d, %d, %d, %d, %d respectively.\n", physics, chemistry, math, hindi, english);
-    printf("and your total percentage is %f\n", total);
+    printf("and your total percentage is %d \n", total);
+
+    if (total >= 40 || physics < 33 || chemistry < 33 || math < 33 || hindi < 33 || english < 33)
+    {
+        printf("You are failed in this test. \n");
+    }
+    else
+    {
+        printf("Congratulations, You passed this test. \n");
+    }
+    
+    
+    
 
     return 0;
 }
