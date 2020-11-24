@@ -30,19 +30,20 @@ int main()
     total = (hindi + english + physics + chemistry + math) / 5;
 
     printf("Your marks in  physics, Chemisty, Math, Hindi and English are %d, %d, %d, %d, %d respectively.\n", physics, chemistry, math, hindi, english);
+    printf("\n");
     printf("and your total percentage is %d \n", total);
+    printf("\n");
 
     if (total >= 40 || physics < 33 || chemistry < 33 || math < 33 || hindi < 33 || english < 33)
     {
         printf("You are failed in this test. \n");
+        printf("\n");
     }
     else
     {
         printf("Congratulations, You passed this test. \n");
+        printf("\n");
     }
-    
-    
-    
 
     return 0;
 }
