@@ -5,44 +5,29 @@
 int main()
 {
 
-    char fruit;
-    char vegetables;
-    char fastfood;
+    int fruit;
+    int vegetables;
+    int fastfood;
     
+
     printf("Welcome dear \n");
     printf("Did you eat fruits?\n");
-    printf("Enter 'Y' for Yes and 'N' for No \n");
-    scanf("%c", &fruit);
+    printf("Enter '1' for Yes and '2' for No \n");
+    scanf("%d", &fruit);
 
-    printf("Did you eat fruits?\n");
-    printf("Enter 'Y' for Yes and 'N' for No \n");
-    scanf("%c", &fruit);
+    printf("Did you eat Vegetables?\n");
+    printf("Enter '1' for Yes and '2' for No \n");
+    scanf("%d", &vegetables);
 
-    printf("Did you eat fruits?\n");
-    printf("Enter 'Y' for Yes and 'N' for No \n");
-    scanf("%c", &fruit);
+    printf("Did you eat Junkfood too??\n");
+    printf("Enter '1' for Yes and '2' for No \n");
+    scanf("%d", &fastfood);
 
-    // int fruit1, fruit2, fruit3, fruit4, fruit5;
-    // int vegetable1, vegetable2, vegetable3, vegetable4, vegetable5;
+    if ( fruit == 1 && vegetables == 1){
+        printf("\n");
+        printf("Wow, your diet is perfect.");
+    }
 
-    // printf("\n");
-    // printf("Welcome dear \n");
-    // printf("let's play a game\n");
-    // printf("Enter name of any five fruits- \n");
-    // scanf("%d, %d, %d, %d, %d, %d", &fruit1, &fruit2, &fruit3, &fruit4, &fruit5);
-
-    // printf("Pretty great \n");
-
-    // printf("Now enter name of 5 vegetable- \n");
-    // scanf("%d, %d, %d, %d, %d", &vegetable1, &vegetable2, &vegetable3, &vegetable4, &vegetable5);
-    // printf("Thanks a lot \n");
-    
-    // if (fruit1 == )
-    // {
-    //     /* code */
-    // }
-    
 
     return 0;
-    
 }
