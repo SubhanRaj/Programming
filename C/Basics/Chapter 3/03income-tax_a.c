@@ -1,4 +1,14 @@
-#include <stdio.h> 
+#include <stdio.h>
+
+// This programm determine weather the user is applicable for income tax or not.
+// Takes input from the user.
+// If yes, then it calculates the applicable income tax from pre-defined slab.
+// The slabs are mentioned below-
+/*      Income           Tax (in percent)  */
+/* 2.5 Lakh - 5 lakh             5%        */
+/* 5 lakh - 10 lakh             20%        */
+/* 10 lakh & Above              30%        */
+// Income below 2.5 lakhs is extemped from taxation.
 
 int main(){
     
