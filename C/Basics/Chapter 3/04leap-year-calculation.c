@@ -25,8 +25,8 @@ int main()
     {
         printf("%d is a leap year. \n", year);
     }
-    // not a leap year if visible by 100
-    // but not divisible by 400
+    /* not a leap year if divisible by 100
+       but not divisible by 400 */
     else if (year % 100 == 0)
     {
         printf("%d is not a leap year. \n", year);
@@ -42,8 +42,6 @@ int main()
     {
         printf("%d is not a leap year. \n", year);
     }
-
-
 
     return 0;
 }
