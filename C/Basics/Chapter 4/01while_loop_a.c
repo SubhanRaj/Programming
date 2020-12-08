@@ -1,4 +1,6 @@
 #include <stdio.h>
+// A Simple C Programm which use if-else clause and while loop to print numbers betweeen
+// 0 and 25 
 
 int main()
 {
