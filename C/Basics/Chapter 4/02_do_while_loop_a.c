@@ -1,13 +1,13 @@
 #include <stdio.h>
-
+// do-while loop first executes the code and then check the conditions.
 int main()
 {
 
-    int i = 1;
+    int i = 0;
     printf("\n");
 
     do {
-        printf("The number %d is an integer. \n" , i);
+        printf("The number %d is an integer. \n" , i+1);
         i++;
 
     }
