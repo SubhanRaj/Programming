@@ -11,10 +11,11 @@ int main()
 
     printf("Enter the value of n- \n");
     scanf("%d", &i);
+
     printf("\n");
     for (i; i; i--)
     {
-        printf(" %d \n", i);
+        printf(" The value of i is %d \n", i);
     }
     printf("\n");
     return 0;
