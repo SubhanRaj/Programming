@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// This is a decrementing for loop whihc takes the value of n from user
+// This is a decrementing for loop which takes the value of n from user
 
 int main()
 {
