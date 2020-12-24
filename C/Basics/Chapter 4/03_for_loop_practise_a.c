@@ -6,8 +6,8 @@
 int main()
 {
 
-    int i = 0;
-    int n; // n is the valyue upto which the numbers should be printed.
+    int i;
+    int n = 5; // n is the value upto which the numbers should be printed.
 
     printf("\n");
 
@@ -16,10 +16,11 @@ int main()
 
     printf("\n");
 
-    for (i = 0; i < n; i++)
+    for (i = 0; i <= n; i++)
     {
-        printf(" The number is %d \n", n);
-        i++;
+        printf(" The number is %d \n", i);
+        
+        
     }
     printf("\n");
     return 0;
