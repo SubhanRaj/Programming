@@ -1,8 +1,9 @@
 #include <stdio.h>
-// A simple demonestration of 'Break' function in forloop.
+// A simple demonestration of 'Break' function in for loop.
 
-int main(){
-    
+int main()
+{
+
     int i;
 
     printf("\n");
@@ -14,8 +15,7 @@ int main(){
         {
             break;
         }
-        
     }
-
+    printf("\n");
     return 0;
 }
