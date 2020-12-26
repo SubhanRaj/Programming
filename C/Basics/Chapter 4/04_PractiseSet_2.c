@@ -1,4 +1,4 @@
-// A program to print multiplication table of 10 in reverse order.
+// A C program to print multiplication table of 10 in reverse order.
 
 #include <stdio.h> 
 

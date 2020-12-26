@@ -1,4 +1,4 @@
-// A prpogram to print multiplication table of a given number n-
+// A C prpogram to print multiplication table of a given number n-
 
 #include <stdio.h>
 #include <math.h>
