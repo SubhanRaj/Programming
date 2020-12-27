@@ -1,7 +1,7 @@
 # Number Gussening Game  
 
 ## This is going to be fun
- 
+
 > _**This C Program can generate a Random number and asks the player to guess it.**_
 
 - If the player guess is _**higher**_ than the actual number, the programm display **"Lower number Please"**.
@@ -12,5 +12,5 @@
 
 ### Uses-
 
-* Loops
-* Random Number Generator.
+-Loops
+-Random Number Generator
