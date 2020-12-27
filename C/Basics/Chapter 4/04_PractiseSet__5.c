@@ -1,4 +1,5 @@
-// A C Program to calculate the sum of the numbers occuring in Multiplication table of 8.
+// A C Program to calculate the sum of the numbers occuring in Multiplication table of any number.
+
 
 
 #include <stdio.h>
@@ -8,7 +9,7 @@ int main()
 {
 
     int i;
-    int n = 8;
+    int n;
     int sum;
 
     printf("\n");
@@ -31,7 +32,7 @@ int main()
         sum += i;
     }
     printf("\n");
-    printf("The value of sum of the numbers occuring in Multiplication table of 8 is %d \n", sum);
+    printf("The value of sum of the numbers occuring in Multiplication table of %d is %d \n", n, sum);
     printf("\n");
 
     return 0;
