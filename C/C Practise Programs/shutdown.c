@@ -1,7 +1,7 @@
 #include <stdio.h> 
 #include <stdlib.h>
 
-//This programm shutdown a windows PC 
+//This programm shutdown a Windows PC 
 int main(){
 
     system("C:\\Windows\\System32\\shutdown.exe /s");

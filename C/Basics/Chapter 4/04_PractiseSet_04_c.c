@@ -1,4 +1,4 @@
-// A program to print sum of n natural numbers using while loop
+// A program to print sum of n natural numbers using for loop
 
 #include <stdio.h>
 
@@ -16,14 +16,12 @@ int main()
     scanf("%d", &n);
     printf("\n");
 
-    while (i <= n)
+    for ( i = 1; i <= n; i++)
     {
-
-        sum += i;
-        i++;
+        sum +=i;
     }
 
-    printf(" The sum of natural numbers upto %d is %d", n, sum);
+    printf("The value of sum of  1 to %d  is %d \n", n, sum);
 
     printf("\n");
     return 0;
