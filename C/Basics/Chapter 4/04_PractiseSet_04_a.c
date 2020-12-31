@@ -21,7 +21,7 @@ int main()
         sum +=i;
     }
 
-    printf(" The value of sum of  1 to %d  is %d \n", n, sum);
+    printf("The value of sum of  1 to %d  is %d \n", n, sum);
 
     printf("\n");
     return 0;

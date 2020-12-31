@@ -14,7 +14,7 @@ main() {
 
 
 	printf("Enter a number greater than 0: (Enter -1 to stop) \n");//user number must be greater than zero or program doesnt run.
-	scanf_s("%i", &userNumber);//user starts entering their numbers.
+	scanf("%i", &userNumber);//user starts entering their numbers.
 	highNumber = userNumber;
     	lowNumber = userNumber;
  
@@ -29,7 +29,7 @@ main() {
 		sum = sum + userNumber;//user number plus the sum gets the sum of all entered numbers.
 		
 		printf("Enter a number:(-1 to stop)\n");//allows user to enter (-1) to stop or continue.
-		scanf_s("%i", &userNumber);//user's number is displayed on screen. 
+		scanf("%i", &userNumber);//user's number is displayed on screen. 
 	}
 	average = (double)sum / count;//[casting!!] a variable. must use when finding an average or it will display as an INT, not double.
 	//divides the count by the sum of numbers entered to calculate the average of total numbers entered by user. 
