@@ -24,7 +24,7 @@ int main()
 
     printf("\n");
 
-    printf("**** Multiplication table of %d **** \n \n", n);
+    printf("**** Multiplication table of %d upto range %d **** \n \n", n, r);
 
     for (i = 1; i <= r; i++)
     {
