@@ -1,5 +1,5 @@
 #include <stdio.h>
-// This programm converts Degree Celsius to Fahrenheit by taking input from the user.
+// This program converts Degree Celsius to Fahrenheit by taking input from the user.
 // Formula- (°C × 9/5) + 32 = °F
 
 int main(){
