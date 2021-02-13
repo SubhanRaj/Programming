@@ -1,4 +1,6 @@
 // A C prpogram to print multiplication table of a given number n-
+// Author : Subhan Raj
+// Git: https://github.com/subhanraj
 
 #include <stdio.h>
 #include <math.h>

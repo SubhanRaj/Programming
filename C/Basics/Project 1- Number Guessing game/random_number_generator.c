@@ -1,9 +1,10 @@
-// This C Program Generators Random Number.
+// This C Program Generates Random Number.
+// Author: Subhan Raj
+// Git: https://github.com/SubhanRaj
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <math.h>
 
 int main()
 {

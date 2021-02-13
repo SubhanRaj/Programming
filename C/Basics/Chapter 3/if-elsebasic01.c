@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// This programm tell that weather the inouted number is even or odd using If-else statements.
+// This programm tell that weather the inputed number is even or odd using If-else statements.
 
 int main()
 {

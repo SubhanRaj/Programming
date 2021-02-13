@@ -1,6 +1,6 @@
 // A C program to calculate the factoral of a given number using for loop
 #include <stdio.h>
-#include <math.h>
+
 
 int main()
 {
