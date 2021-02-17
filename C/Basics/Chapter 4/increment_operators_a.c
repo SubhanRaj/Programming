@@ -13,7 +13,7 @@ int main()
     printf("&");
     printf("The value of ++i is %d \n", i);
     /* <----------------------------------->*/
-    i+=100;
+    i += 100;
     printf("i = %d \n", i);
     /* <----------------------------------->*/
     printf("The value of i after i-- is %d \n", i--);
