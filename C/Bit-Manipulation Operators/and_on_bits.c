@@ -17,6 +17,7 @@ int main()
     b = a & c;
 
     printf("Value of b is %d \n", b);
+    showbits (c);
     printf("\n");
     return 0;
 }
