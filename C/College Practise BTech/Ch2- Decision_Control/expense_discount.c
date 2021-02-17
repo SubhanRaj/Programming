@@ -1,3 +1,6 @@
+/* Question : While purchasing certain items, a discount of 10% is offered if the quantity purchased is greater than or equal to 1000.
+   If quantity and price are inputed throug the keyboard, write a program to calcluate the total expenses. */
+
 /* C Program for calculation of Expenses & Discounts */
 // Author: Subhan Raj
 // Git: https://github.com/SubhanRaj
