@@ -1,9 +1,9 @@
-// Question: Write a program that calculates the Simple Interest and Compound Interest. The Principal Amount, Rate of interest and Time are entered through the keyboard.
+// Question: Write a program that calculates the Simple Interest The Principal Amount, Rate of interest and Time are entered through the keyboard.
 
-// Objective: To create a C program that calculates the Simple Interest and Compound Interest. The Principal Amount, Rate of interest and Time are entered through the keyboard.
+// Objective: To create a C program that calculates the Simple Interest. The Principal Amount, Rate of interest and Time are entered through the keyboard.
 
 /*---------------Code---------------*/
-// A C program that calculates the Simple Interest and Compound Interest. The Principal Amount, Rate of interest and Time are entered through the keyboard.
+// A C program that calculates the Simple Interest. The Principal Amount, Rate of interest and Time are entered through the keyboard.
 // Author: Subhan Raj
 #include <stdio.h>
 
@@ -14,7 +14,7 @@ int main()
     int fa;          // Final Amount
     printf("\n");
 
-    printf("This C Program calculates Simple and Compound Intrest from the user inputted values.");
+    printf("This C Program calculates Simple Intrest from the user inputted values.");
     /* Input principle, time and rate */
     printf("\nEnter Principal Amount- ");
     scanf("%d", &pa);
@@ -32,7 +32,7 @@ int main()
 
 // Output of the Above program-
 
-/*This C Program calculates Simple and Compound Intrest from the user inputed values.
+/*This C Program calculates Simple Intrest from the user inputed values.
 Enter Principal Amount- 100
 
 Enter Rate of Intrest- 10
