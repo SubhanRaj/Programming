@@ -1,4 +1,4 @@
-# <p style="text-align: center;">COMPUTER PROGRAMMING LAB (CS 151/251) </p>
+# COMPUTER PROGRAMMING LAB (CS 151/251)
 
 1. WAP that accepts the marks of 5 subjects and finds the sum and percentage marks obtained by the student
 2. WAP that calculates the Simple Interest and Compound Interest. The Principal, Amount, Rate of interest and Time are entered through the keyboard. 
