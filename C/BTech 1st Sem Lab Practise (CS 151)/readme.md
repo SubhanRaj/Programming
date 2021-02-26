@@ -28,4 +28,4 @@
 26. WAP to implement strien (), strcat(),strcpy using the concept of Functions.
 27. WAP to swap two elements using the concept of pointers.
 28. WAP to compare the contents of two files and determine whether they are the same or not. 
-29. WAP to check whether a given word exists in a file or not. If yes then find the number of times it occurs
+29. WAP to check whether a given word exists in a file or not. If yes then find the number of times it occurs.
