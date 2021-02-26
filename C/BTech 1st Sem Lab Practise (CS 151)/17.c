@@ -1,4 +1,4 @@
-// Question16: Write a program to find the reverse of a number.
+// Question17: Write a program to find the reverse of a number.
 
 // Objective: To create a C program that find the reverse of a number.
 /*---------------Code---------------*/
