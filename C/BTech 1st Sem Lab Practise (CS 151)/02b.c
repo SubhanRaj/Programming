@@ -33,11 +33,9 @@ int main()
 
 // Output of the Above program-
 
-/*This C Program calculates Compound Interest from the user inputed values.
-Enter Principal Amount- 100
+/*This C Program calculates Compound Interest from the user inputted values.
+Enter Principal Amount- 1500
+Enter Rate of Intrest- 15
+Enter Time period in months- 36
 
-Enter Rate of Intrest- 10
-
-Enter Time period in months- 12
-
-The Compound intrest on Rs 100 at Interest rate of 10 after 12 months will be 120 and the total amount will be 220 */
+The Compound Interest on Rs 1500 at an Interest rate of 15 after 36 months will be 1500 and the total amount will be 3000 */
