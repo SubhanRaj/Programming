@@ -1,4 +1,4 @@
-// Question: Write a program that checks whether the two numbers entered by the user are equal or not.
+// Question6: Write a program that checks whether the two numbers entered by the user are equal or not.
 // Objective: To create a C program that checks whether the two numbers entered by the user are equal or not.
 
 /*---------------Code---------------*/

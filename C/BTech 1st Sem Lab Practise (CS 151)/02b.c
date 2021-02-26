@@ -1,4 +1,4 @@
-// Question: Write a program that calculates the Compound Interest The Principal Amount, Rate of interest and Time are entered through the keyboard.
+// Question2b: Write a program that calculates the Compound Interest The Principal Amount, Rate of interest and Time are entered through the keyboard.
 
 // Objective: To create a C program that calculates the Compound Interest. The Principal Amount, Rate of interest and Time are entered through the keyboard.
 

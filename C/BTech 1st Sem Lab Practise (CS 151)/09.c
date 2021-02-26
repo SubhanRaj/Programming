@@ -1,4 +1,4 @@
-// Question: Write a program that tells whether a given year is a leap year or not.
+// Question9: Write a program that tells whether a given year is a leap year or not.
 
 // Objective: To create a C program that tells whether a given year is a leap year or not.
 

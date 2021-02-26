@@ -1,4 +1,4 @@
-// Question: Write a program to find the factorial of a given number.
+// Question12: Write a program to find the factorial of a given number.
 // Objective: To create a C program that print the factorial of a given number.
 
 /*---------------Code---------------*/

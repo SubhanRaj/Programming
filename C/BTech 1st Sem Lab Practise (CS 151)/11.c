@@ -1,4 +1,4 @@
-// Question: Write a program to print the sum of all numbers up to a given number
+// Question11: Write a program to print the sum of all numbers up to a given number
 // Objective: To create a C program that print the sum of all numbers up to a given number
 
 /*---------------Code---------------*/

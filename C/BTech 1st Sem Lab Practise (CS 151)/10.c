@@ -1,4 +1,4 @@
-// Question: Write a program that takes two operands and one operator from the user and perform the operation and prints the result by using the Switch statement.
+// Question10: Write a program that takes two operands and one operator from the user and perform the operation and prints the result by using the Switch statement.
 // Objective: To create a C program that takes two operands and one operator from the user and perform the operation and prints the result by using the Switch statement.
 
 /*---------------Code---------------*/

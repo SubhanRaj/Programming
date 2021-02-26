@@ -1,4 +1,4 @@
-// Question: Write a program that finds whether a given number is even or odd.
+// Question8: Write a program that finds whether a given number is even or odd.
 
 // Objective: To create a C program that finds whether a given number is even or odd.
 

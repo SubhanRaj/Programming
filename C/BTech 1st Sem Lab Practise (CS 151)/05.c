@@ -1,4 +1,4 @@
-// Question: Write a program that swaps values of two variables using a third variable
+// Question5: Write a program that swaps values of two variables using a third variable
 // Objective: To create a C program that swaps values of two variables using a third variable
 
 /*---------------Code---------------*/

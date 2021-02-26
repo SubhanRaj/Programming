@@ -1,4 +1,4 @@
-// Question: Write a program to to find the greatest of three numbers.
+// Question7: Write a program to to find the greatest of three numbers.
 
 // Objective: To create a C program that finds the greatest of three numbers.
 

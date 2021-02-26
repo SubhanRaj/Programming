@@ -1,4 +1,4 @@
-// Question: Write a program to calculate the area and circumference of a circle.
+// Question3: Write a program to calculate the area and circumference of a circle.
 
 // Objective: To create a C program that calculates the area and circumference of a circle
 

@@ -1,4 +1,4 @@
-// Question: WAP that accepts the marks of 5 subjects and finds the sum and percentage marks obtained by the student.
+// Question1: WAP that accepts the marks of 5 subjects and finds the sum and percentage marks obtained by the student.
 
 // Objective: Create a C program that can accept the marks of 5 subjects and finds the sum and percentage obtained by the student.
 // Author: Subhan Raj

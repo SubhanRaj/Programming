@@ -1,4 +1,4 @@
-// Question: Write a program that accepts the temperature in centigrade and converts into Fahrenheit.
+// Question4: Write a program that accepts the temperature in centigrade and converts into Fahrenheit.
 //           Use Formula: C/5 = (F-32)/9
 // Objective: To create a C program that accepts the temperature in centigrade and converts into Fahrenheit.
 
