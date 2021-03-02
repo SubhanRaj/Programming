@@ -1,4 +1,4 @@
-// Question24. WAP that finds the sum of diagonal elements of an MxN matrix
+// Question20\5. WAP that finds the sum of diagonal elements of an MxN matrix
 /* Objective :To create a c program that finds the sum of diagonal elements of an MxN matrix*/
 
 /*---------------Code---------------*/
