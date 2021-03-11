@@ -4,11 +4,9 @@ int sum(int a, int b); // Function Prototype Declaration
 
 int main()
 {
-    int /*a,b */ c;
-    // printf(" Enter value of a and b - ");
-    // scanf ("%d %d", &a, &b);
+    int c;
     c = sum(2, 15);
-    printf("The value of c is %d \n", c);
+    printf("\nThe value of c is %d \n", c);
 
     return 0;
 }

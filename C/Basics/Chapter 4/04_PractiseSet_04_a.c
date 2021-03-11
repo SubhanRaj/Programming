@@ -5,9 +5,7 @@
 int main()
 {
 
-    int i = 1;
-    int sum = 0;
-    int n;
+    int i = 1, sum = 0, n;
 
     printf("\n");
 

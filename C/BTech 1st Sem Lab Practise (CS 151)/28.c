@@ -1,4 +1,4 @@
-/* Question28. WAP to compare the contents of two files and determine whether they are the sam/home/subhan/Desktop/SampleFile/sample1.txt/home/subhan/Desktop/SampleFile/sample1.txte or
+/* Question28. WAP to compare the contents of two files and determine whether they are the same or
 not.*/
 /* Objective :To create a c program to compare the contents of two files and determine whether they are the same or
 not.*/
@@ -96,7 +96,6 @@ int cF(FILE *fPtr1, FILE *fPtr2, int *line, int *col)
         *col += 1;
 
     } while (ch1 != EOF && ch2 != EOF);
-
     /* If both files have reached end */
     if (ch1 == EOF && ch2 == EOF)
         return 0;
