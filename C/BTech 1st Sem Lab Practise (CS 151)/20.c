@@ -20,8 +20,9 @@ int main()
     }
     for (i = 0; i < n; i++)
     {
-        sum += a[i];
+        sum = sum + a[i];
         printf("\nSum of array is: %d\n", sum);
+        break;
     }
 
     return 0;

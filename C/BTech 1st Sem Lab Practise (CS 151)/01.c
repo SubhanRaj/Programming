@@ -9,25 +9,23 @@
 int main()
 {
 
-    float sub1, sub2, sub3, sub4, sub5; // These float variables collects marks as input
-    float sum, percentage;              // These float variables store and gives output
+    int sub[5];                // This int array collects marks as input
+    float sum = 0, percentage; // These float variables store and gives output
 
     printf("This C program calculates the Sum and percentage from the value entered by student\n");
     printf("Maximum Marks in each Subject = 100\n");
     printf("\n");
-    printf("Please Enter Marks of Subject 1- ");
-    scanf("%f", &sub1);
-    printf("Please Enter Marks of Subject 2- ");
-    scanf("%f", &sub2);
-    printf("Please Enter Marks of Subject 3- ");
-    scanf("%f", &sub3);
-    printf("Please Enter Marks of Subject 4- ");
-    scanf("%f", &sub4);
-    printf("Please Enter Marks of Subject 5- ");
-    scanf("%f", &sub5);
+    for (int i = 0; i < 5; i++)
+    {
+        printf("Please Enter Marks of Subject %d- ", i + 1);
+        scanf("%d", &sub[i]);
+    }
 
-    sum = sub1 + sub2 + sub3 + sub4 + sub5; // Calculation of Sum by adding marks of all subject.
-    percentage = sum / mm * 100;            // Calculation of percentage
+    for (int i = 0; i < 5; i++)
+    {
+        sum = sum + sub[i];
+    };                           // Calculation of Sum by adding marks of all subject.
+    percentage = sum / mm * 100; // Calculation of percentage
 
     printf("\nThe total Marks obtained is %f and hence your percentage is %f. \n", sum, percentage);
 
