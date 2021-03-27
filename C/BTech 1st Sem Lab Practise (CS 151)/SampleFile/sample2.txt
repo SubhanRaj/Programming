@@ -1,0 +1,1 @@
+Sample C file for comparision in program 28.C
