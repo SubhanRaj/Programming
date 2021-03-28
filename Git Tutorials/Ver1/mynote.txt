@@ -1,4 +1,0 @@
-Just a simple Text file
-Nothing to look here
-
-<-- This will be second comit of this file, first one is empty -->
