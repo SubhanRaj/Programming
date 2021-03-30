@@ -8,7 +8,7 @@
     <title>HTML Chapter 3</title>
 </head>
 
-<body>
+<body style="background-color:salmon;"> <!--Here the style attribute gives styling to page-->
     <!--The Body is divided in header. main and footer-->
     <header>
         <!--This is the header section-->
@@ -19,17 +19,55 @@
     <main>
         <!--This is the main section-->
         <h2>This is the main section of Document</h2>
+        <hr>
         <section>This is a sample section of Document</section>
+        <hr>
         <article>
             <!--This is used to write contents-->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nam id adipisci, blanditiis, voluptatibus consequatur quo eligendi corporis officiis nostrum, dicta animi voluptates voluptatum dolore rerum delectus itaque. Animi facere beatae ea unde reprehenderit vitae hic illum! Perspiciatis ipsam reprehenderit temporibus minus vero consectetur. Molestias.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nam id adipisci, blanditiis,
+                voluptatibus consequatur quo eligendi corporis officiis nostrum, dicta animi voluptates voluptatum
+                dolore rerum delectus itaque. Animi facere beatae ea unde reprehenderit vitae hic illum! Perspiciatis
+                ipsam reprehenderit temporibus minus vero consectetur. Molestias.</p>
         </article>
+        <hr>
         <aside>Not much important things here</aside>
-    <!--Now I'm adding Links-->
-    <a href="https://en.wikipedia.org/wiki/Khwaja_Moinuddin_Chishti_Language_University" target="_blank">KMCLU</a> <!--Here target="_blank" open the link in new browser tab-->
-    <br>
-    <a href="https://google.com" target="_blank">Google</a>
+        <!--Now I'm adding Links-->
+        <hr>
+
+        <a href="https://en.wikipedia.org/wiki/Khwaja_Moinuddin_Chishti_Language_University" target="_blank">KMCLU</a>
+        <!--Here target="_blank" open the link in new browser tab-->
+        <br>
+        <a href="https://google.com" target="_blank">Google</a>
+        <br>
+        <!--We can use images as link also-->
+        <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">
+            <img src="/Chapter2/The C Logo.png" alt="The C Programming Langaue" width="350px" style="border: double ;"></a>
+        <!--We only set either height or width attribute so the aspect ratio of the image will maintained-->
+        <hr>
+        <!--The section below shows use of <div> and <class> tags-->
+        <section>
+            <div style="background-color: black;">
+                <!--Div basically put things inside a container-->
+                <h1 style="color: red;">heading 1 inside div 1 on this page</h1>
+                <p style="color: yellow;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corrupti quod sint
+                    nesciunt optio.
+                    Impedit voluptatibus explicabo nostrum esse, praesentium ab rem temporibus velit quo aut quasi
+                    exercitationem iusto animi unde enim, neque possimus laudantium. Similique aperiam iste rem
+                    repudiandae consectetur numquam culpa cum deserunt.</p>
+                <!--Here the stylling will apply only to individual div-->
+            </div>
+            <hr>
+            <div style="background-color:red;">
+                <h2 style="font-family:cursive; color: white;">Heading 2 inside div 2 on this page</h2>
+                <p style="color:gold ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vel aperiam iure magni, neque
+                    mollitia molestiae possimus explicabo cupiditate exercitationem 
+                    <!--Span is used as an Inline container-->
+                    <span style="background-color: black; color: white;">esciunt aliquam nam eosn.</span></p>
+            </div>
+
+        </section>
     </main>
+
     <hr>
     <footer>
         <h3>This is the footer</h3>
