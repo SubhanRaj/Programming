@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <header>
+        <h1>Forms in HTML</h1>
+    </header>
+    <hr>
+    <main>
+        <p>We can create forms in html using form element, below is the example of a simple form</p>
+        <section>
+            <div>
+                <h2>Canteen Order</h2>
+                <form action="form.php">
+                    <!--Form tag is used to tell brosert that this is a form-->
+                    <input type="text" placeholder="Enter your name">
+                    <br>
+                    <br>
+                    <p>Select your class</p>
+                    <label for="Class1">
+                        <input type="radio" value="Class 1" name="Class" id="Class1"> Class 1
+                    </label>
+                    <label for="Class2">
+                        <input type="radio" value="Class 2" name="Class" id="Class2"> Class 2
+                    </label>
+                    <label for="Class3">
+                        <input type="radio" value="Class 3" name="Class" id="Class3"> Class 3
+                    </label>
+                    <label for="Class4">
+                        <input type="radio" value="Class 4" name="Class" id="Class4"> Class 4
+                    </label>
+                    <label for="Class5">
+                        <input type="radio" value="Class 5" name="Class" id="Class5"> Class 5
+                    </label>
+                    <br>
+                    <br>
+                    <label for="Choice1">Are you going to order something?
+                    <input type="checkbox" id="Choice1" class="Choice" name="Choice">Yes
+                    </label>
+                    <label for="Choice2">
+                        <input type="checkbox" id="Choice2" class="Choice" name="Choice">No
+                    </label>
+                    
+                    <h3> What You like to ordertoday</h3>
+                    <select name="Menu" id="menu" >
+                        <option>Burger</option>
+                        <option>French Fries</option>
+                        <option>Coke</option>
+                        <option>Tea</option>
+                        <option>Coffee</option>
+                        <option>Water</option>
+
+                    </select>
+                    <br>
+                    <br>
+                    <textarea name="Feedback" id="TextFeedBack" cols="30" rows="10" placeholder="Write your feedbak here"></textarea>
+                   <br> <input type="submit">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
