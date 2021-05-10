@@ -1,0 +1,26 @@
+/* Stylesheet fot index.html */
+
+/* A Basic CSS styling syntax looks likes this - 
+
+selector {
+    property1 : value1;
+    property2 : value2;
+    propertyX : valueX;
+}
+*/
+
+/* Types of Selector */
+
+/* 
+    1. Element Selector : Changes properties of an entire element
+    2. Id Selector : Selects a particualar Element based on its ID
+    2. Class Selector : Selects a particualr class
+*/
+
+body {
+    background-color: skyblue;
+}
+
+#MainHeading {
+    text-align: center;
+}
