@@ -1,19 +1,21 @@
 #include <stdio.h>
 
-// This C Program prints the ASCII value of a given character
+// This C Program prints the ASCII value of a given character and a Character from Given ASCII Value
+// Author : SubhanRaj
 
 int main()
 {
 
-    int n;
-    char ch;
-    printf("Enter the value of 'N' \n \n");
-    scanf("%d", &n);
-    printf("Enter the character: \n\n");
-    scanf("%c", &ch);
+    char n;
+    int ch;
 
-    printf("The equivalent character : %c \n\n", n);
-    printf("and, thr equivalent ASCII no.: %d \n\n", ch);
+    printf("\nEnter a Character:  \n \n");
+    scanf("%c", &n);
+    printf("The ASCII Value of character : %c = %d \n\n", n, n);
+
+    printf("Enter the value of character \n\n");
+    scanf("%d", &ch);
+    printf("The ASCII character for value %d will be %c \n", ch, ch);
 
     return 0;
 }
