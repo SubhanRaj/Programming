@@ -1,17 +1,35 @@
+// Console Alert
 alert("Welcome to JavaScript Practise");
 
-console.log ("Hello World");
+console.time('Time taken in execution'); //logs time taken
+console.log("Hello World"); //prints a string
 
-console.log (true)
-console.log (34);
-console.log ([10,20,30,40]) //Array in console
-console.log ({Subhan: 'Test1', value:100})
-console.table({Subhan: 'Test1', value:100})
+console.log(true);
+console.log(34); //integers
+console.log([10, 20, 30, 40]); //Array in console
+console.log({
+    Subhan: 'Test1',
+    value: 100
+}); //object
+console.table({
+    Subhan: 'Test1',
+    value: 100
+}); //table
 
-// Warning
+console.warn('This is a warning'); // Warning
 
-console.warn('This is a warning')
+console.error('This is an error'); // Error
 
-// Clear Console
+// console.clear(); // Clear Console
 
-console.clear()
+console.timeEnd('Time taken in execution');
+
+/*
+
+Multi
+
+line 
+
+comment
+
+*/
