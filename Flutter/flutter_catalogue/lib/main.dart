@@ -13,9 +13,12 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Container(
-        child: Text("Welcome to My First Flutter App by Subhan"),
+        home: Material(
+      child: Center(
+        child: Container(
+          child: Text("Welcome to My First Flutter App"),
+        ),
       ),
-    );
+    ));
   }
 }
