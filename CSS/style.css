@@ -1,0 +1,112 @@
+/* Styling for index.html */
+
+.nav {
+    background-color: black;
+    padding: 0px;
+
+
+}
+
+.items {
+    margin: 0px;
+    color: red;
+    list-style-type: lower-greek;
+    background-color: black;
+    width: 50%;
+    margin-left: auto;
+    text-align: right;
+    padding: 15px; 
+    
+
+
+}
+
+.item {
+    display: inline;
+
+
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px;
+    min-width: 25%;
+    max-width: 50%;
+
+
+}
+
+.item a:hover {
+    background-color: red;
+    font-family: Comic Sans MS;
+    color: black;
+    font-size: 15px;
+
+}
+
+.border {
+    border-style: solid;
+    border-width: 5px;
+    /* border-top-style: dotted; */
+    border-color: red;
+    border-radius: 10px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    outline: 3px solid black;
+    color: black;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 22px;
+
+}
+
+.border a {
+    text-decoration: none;
+    font-style: oblique;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+
+}
+.container{
+    width: 100%;
+    height:75px;
+    margin-top: 10px;
+    border:  3px solid yellow;
+    border-radius: 15px;
+    box-sizing: border-box;
+    
+}
+.first{
+    background-color: red;
+    height: 45px;
+    width: 30%;
+    margin: 10px;
+    display: inline-block;
+    float:right;
+}
+.first p{
+    text-align: center;
+}
+.second{
+    background-color: green;
+    height: 45px;
+    width: 30%;
+    margin: 10px;
+    display: inline-block;
+    float: left;
+    
+}
+
+.second p {
+    text-align: center;
+}
