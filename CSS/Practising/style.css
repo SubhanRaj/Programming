@@ -55,9 +55,9 @@ selector {
 
 body {
     background-color: aqua;
-    /* background-image:url(/img/bg.jpg);
+    background-image:url(/img/bg.jpg);
     background-repeat: no-repeat;
-    background-position: right top; */
+    background-position: right top;
     background-attachment: fixed;
 
 }
@@ -80,13 +80,26 @@ li {
 
 .border {
     border-style: solid;
-    border-width: 2px;
+    border-width: 5px;
     /* border-top-style: dotted; */
     border-color: red;
     border-radius: 10px;
-    padding: 100px;
+    padding: 50px;
     margin: 50px;
     width: 50%;
     height: auto;
     text-align: center;
+    outline: 3px solid black;
+    color: white ;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 22px;
+
 } 
+
+.border a{
+    text-decoration: none;
+    font-style: oblique;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
