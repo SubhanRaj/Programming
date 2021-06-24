@@ -9,7 +9,7 @@ class ItemWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Colors.black,
+      color: Colors.white,
       shape: StadiumBorder(),
       child: ListTile(
         onTap: () {
@@ -19,13 +19,13 @@ class ItemWidget extends StatelessWidget {
         title: Text(
           item.name,
           style: TextStyle(
-            color: Colors.white,
+            color: Colors.deepPurple,
           ),
         ),
         subtitle: Text(
           item.desc,
           style: TextStyle(
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
         trailing: Text(
