@@ -1,11 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-
 class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-
     return Drawer(
       child: Container(
         color: Colors.deepPurple,
@@ -19,41 +17,47 @@ class MyDrawer extends StatelessWidget {
                 accountName: Text("Subhan"),
                 accountEmail: Text("shubhanraj2002@gmail.com"),
                 currentAccountPicture: CircleAvatar(
-                  backgroundImage: AssetImage ("assets/images/MyPortrait.JPG")
-                ),
+                    backgroundImage:
+                        AssetImage("assets/images/MyPortrait.JPG")),
               ),
             ),
             ListTile(
-              leading: Icon(CupertinoIcons.home, color: Colors.white,),
-              title: Text (
+              leading: Icon(
+                CupertinoIcons.home,
+                color: Colors.white,
+              ),
+              title: Text(
                 "Home",
                 textScaleFactor: 1.5,
-                style: ( TextStyle(
+                style: (TextStyle(
                   color: Colors.white,
-                )
-                ),
+                )),
               ),
             ),
             ListTile(
-              leading: Icon(CupertinoIcons.profile_circled, color: Colors.white,),
-              title: Text (
+              leading: Icon(
+                CupertinoIcons.profile_circled,
+                color: Colors.white,
+              ),
+              title: Text(
                 "About Me",
                 textScaleFactor: 1.5,
-                style: ( TextStyle(
+                style: (TextStyle(
                   color: Colors.white,
-                )
-                ),
+                )),
               ),
             ),
             ListTile(
-              leading: Icon(CupertinoIcons.mail, color: Colors.white,),
-              title: Text (
-                "Send Feedback",
+              leading: Icon(
+                CupertinoIcons.mail,
+                color: Colors.white,
+              ),
+              title: Text(
+                "Connect With Me",
                 textScaleFactor: 1.5,
-                style: ( TextStyle(
+                style: (TextStyle(
                   color: Colors.white,
-                )
-                ),
+                )),
               ),
             ),
           ],
