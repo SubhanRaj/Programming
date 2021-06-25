@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 12 Pro",
+            "desc": "Apple iPhone 12th generation",
+            "price": 999,
+            "color": "#33505a",
+            "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-12-pro-r1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Pixel 5",
+            "desc": "Google Pixel phone 5th generation",
+            "price": 699,
+            "color": "#00ac51",
+            "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-5-5g-1.jpg"
+        },
+        {
+            "id": 3,
+            "name": "M1 Macbook Air",
+            "desc": "Apple Macbook air with apple silicon",
+            "price": 1099,
+            "color": "#e0bfae",
+            "image": "https://fdn.gsmarena.com/imgroot/news/20/11/macbook-air-with-m1/-1200/gsmarena_006.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Playstation 5",
+            "desc": "Sony Playstation 5th generation",
+            "price": 500,
+            "color": "#544ee4",
+            "image": "https://fdn.gsmarena.com/imgroot/news/21/02/playstation-5-review/-1200w5/gsmarena_001.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Airpods Pro",
+            "desc": "Apple Aipods Pro 1st generation",
+            "price": 200,
+            "color": "#e3e4e9",
+            "image": "https://fdn.gsmarena.com/imgroot/news/19/10/airpods-pro/-727/gsmarena_001.jpg"
+        },
+        {
+            "id": 6,
+            "name": "iPad Pro",
+            "desc": "Apple iPad Pro 2020 edition",
+            "price": 799,
+            "color": "#f73984",
+            "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-ipad-pro-11-2020-1.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Galaxy S21 Ultra",
+            "desc": "Samsung Galaxy S21 Ultra 2021 edition",
+            "price": 1299,
+            "color": "#1c1c1c",
+            "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s21-ultra-5g-1.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Galaxy S21",
+            "desc": "Samsung Galaxy S21 2021 edition",
+            "price": 899,
+            "color": "#7c95eb",
+            "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s21-5g-0.jpg"
+        }
+    ]
+}
