@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.masterofcosmos.flutter_catalogue">
    <application
-        android:label="flutter_catalogue"
+        android:label="Flutter Catalogue"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
