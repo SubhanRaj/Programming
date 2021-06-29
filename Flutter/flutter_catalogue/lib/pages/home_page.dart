@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_catalogue/models/catalogue.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_catalogue/pages/home_widgets/catalogue_header.dart';
-import 'package:flutter_catalogue/pages/home_widgets/catalogue_list.dart';
+import 'package:flutter_catalogue/widgets/home_widgets/catalogue_header.dart';
+import 'package:flutter_catalogue/widgets/home_widgets/catalogue_list.dart';
 import 'package:flutter_catalogue/widgets/themes.dart';
 import 'dart:convert';
 import 'package:velocity_x/velocity_x.dart';
