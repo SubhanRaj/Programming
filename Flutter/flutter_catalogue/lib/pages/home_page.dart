@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
               // ignore: unnecessary_null_comparison
               if (CatalogueModel.items != null &&
                   CatalogueModel.items.isNotEmpty)
-                CatalogueList().expand()
+                CatalogueList().py16().expand()
               else
                 CircularProgressIndicator().centered().expand(),
             ],
