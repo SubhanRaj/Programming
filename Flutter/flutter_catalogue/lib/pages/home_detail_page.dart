@@ -11,7 +11,9 @@ class HomeDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
       backgroundColor: MyTheme.creamColor,
       bottomNavigationBar: Container(
         color: Colors.white,
@@ -37,7 +39,7 @@ class HomeDetailPage extends StatelessWidget {
           Hero(
             tag: Key(catalogue.id.toString()),
             child: Image.network(catalogue.image),
-          ).h32(context).p8(),
+          ).h32(context),
           Expanded(
               child: VxArc(
             height: 30.0,
