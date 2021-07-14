@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_catalogue/models/catalogue.dart';
-import 'package:flutter_catalogue/widgets/drawer.dart';
-import 'package:flutter_catalogue/widgets/item_widget.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_catalogue/widgets/home_widgets/catalogue_header.dart';
+import 'package:flutter_catalogue/widgets/home_widgets/catalogue_list.dart';
+import 'package:flutter_catalogue/widgets/themes.dart';
 import 'dart:convert';
+import 'package:velocity_x/velocity_x.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -34,59 +36,24 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          "Flutter Catalogue App",
+      backgroundColor: MyTheme.creamColor,
+      body: SafeArea(
+        child: Container(
+          padding: Vx.m32,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              CatalogueHeader(),
+              // ignore: unnecessary_null_comparison
+              if (CatalogueModel.items != null &&
+                  CatalogueModel.items.isNotEmpty)
+                CatalogueList().py16().expand()
+              else
+                CircularProgressIndicator().centered().expand(),
+            ],
+          ),
         ),
       ),
-      body: Padding(
-          padding: const EdgeInsets.all(16.0),
-          child:
-              // ignore: unnecessary_null_comparison
-              (CatalogueModel.items != null && CatalogueModel.items.isNotEmpty)
-                  ? GridView.builder(
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: 2,
-                        mainAxisSpacing: 20,
-                        crossAxisSpacing: 16,
-                      ),
-                      itemBuilder: (context, index) {
-                        final item = CatalogueModel.items[index];
-                        return Card(
-                          clipBehavior: Clip.antiAlias,
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(10)),
-                          child: GridTile(
-                            header: Container(
-                              child: Text(
-                                item.name,
-                                style: TextStyle(color: Colors.white),
-                              ),
-                              padding: const EdgeInsets.all(12),
-                              decoration: BoxDecoration(
-                                color: Colors.deepPurple,
-                              ),
-                            ),
-                            child: Image.network(item.image),
-                            footer: Container(
-                              child: Text(
-                                item.price.toString(),
-                                style: TextStyle(color: Colors.white),
-                              ),
-                              padding: const EdgeInsets.all(12),
-                              decoration: BoxDecoration(
-                                color: Colors.black,
-                              ),
-                            ),
-                          ),
-                        );
-                      },
-                      itemCount: CatalogueModel.items.length,
-                    )
-                  : Center(
-                      child: CircularProgressIndicator(),
-                    )),
-      drawer: MyDrawer(),
     );
   }
 }
