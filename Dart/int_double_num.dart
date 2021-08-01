@@ -32,4 +32,12 @@ void main() {
   print(check == a); /* Compares two objects. */
   print(check == a.toString());
   /* toString() returns a string representation of the object. */
+
+  bool b1 = true;
+  bool b2 = false;
+
+  if (c == a + b) {
+    print((b1));
+  }
+  ; /* Prints the value of the variable b1. */
 }
