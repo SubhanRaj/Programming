@@ -14,7 +14,7 @@ int main()
     cout << "Enter Num 2: ";
     cin >> num2;
     int sum = num1 + num2;
-    cout << "Sum of " << num1 << " and b " << num2 << " will be: " << sum << endl;
+    cout << "Sum of " << num1 << " and " << num2 << " will be: " << sum << endl;
 
     return 0;
 }
