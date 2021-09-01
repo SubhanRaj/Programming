@@ -23,7 +23,7 @@ int main()
     cout << "This is how we we print variables.\n"; // '\n' is a escape sequesnce to insert a new line.
     cout << "The value of a is " << a << " & the value of b is " << b << ".\n";
 
-    // We can also write the value of a & b in single line using ','
+    // We can also decare multiple variables in single line using ','
 
     int c = 10, d = 25;
     int sum = a + b + c + d;
