@@ -31,8 +31,27 @@ void inc_dec()
     cout << ("The Value of --i is: ") << --i << endl;
 }
 
+void logic()
+{
+    // Logical Operators in C++
+
+    int i, j;
+    cout << "Enter int i: ";
+    cin >> i;
+    cout << "Enter int j: ";
+    cin >> j;
+    cout << ("i==j is ") << (i == j) << endl;
+    cout << ("i!=j is ") << (i != j) << endl;
+    cout << ("i<=j is ") << (i <= j) << endl;
+    cout << ("i>=j is ") << (i >= j) << endl;
+    cout << ("i<j is ") << (i < j) << endl;
+    cout << ("i>j is ") << (i > j) << endl;
+}
+
 int main()
 {
     arth();
     inc_dec();
+    logic();
+    return 0;
 }
