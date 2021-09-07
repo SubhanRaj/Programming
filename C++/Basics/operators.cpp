@@ -3,6 +3,18 @@
 #include <iostream>
 using namespace std;
 
+void arth();
+void inc_dec();
+void logic();
+
+int main()
+{
+    arth();
+    inc_dec();
+    logic();
+    return 0;
+}
+
 void arth()
 {
     int i, j;
@@ -46,12 +58,4 @@ void logic()
     cout << ("i>=j is ") << (i >= j) << endl;
     cout << ("i<j is ") << (i < j) << endl;
     cout << ("i>j is ") << (i > j) << endl;
-}
-
-int main()
-{
-    arth();
-    inc_dec();
-    logic();
-    return 0;
 }
