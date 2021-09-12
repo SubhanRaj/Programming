@@ -1,4 +1,4 @@
-// C++ program to demonstrate operator overloading
+// C++ program to demonstrate Function overloading
 
 #include <iostream>
 using namespace std;
