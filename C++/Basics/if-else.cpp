@@ -17,7 +17,7 @@ int main()
         cout << "now it will run if-else control statement" << endl;
         control();
     }
-    else if (ch != 1)
+    else
     {
         cout << "Now it will run Switch case" << endl;
     }
@@ -31,18 +31,17 @@ void control()
     cin >> age;
     if (age < 12)
     {
-        cout << "\nKids not allowed";
+        cout << "\nKids not allowed" << endl;
     }
-    else if (age < 12 && age > 18)
+    else if ((age <= 12) && (age <= 17))
     {
-        cout << "\nTeens need permission from parents first";
+        cout << "\nTeens need permission from parents first" << endl;
     }
-    else if (age > 18 && age < 80)
+    else if (age >= 18)
     {
-        cout << "\nWelcome to the part";
+        cout << "\nWelcome to the party" << endl;
     }
 }
-void switch_case ()
+void switch_case()
 {
-
 }
