@@ -20,7 +20,7 @@ int main()
         hexadecimalNumber[i++] = temp;
         quotient = quotient / 16;
     }
-    printf("Equivalent hexadecimal value of decimal number %d: ", decimalNumber);
+    printf("Equivalent hexadecimal value of decimal number %l: ", decimalNumber);
     for (j = i - 1; j > 0; j--)
         printf("%c", hexadecimalNumber[j]);
     return 0;
