@@ -13,6 +13,14 @@ int main()
     mathMarks[1] = 65;
     mathMarks[2] = 93;
     mathMarks[3] = 78;
+    // We can use loop for input and output also
+
+    int mark[10];
+    for ( int i = 0; i < 10; i++){
+        cout <<"Enter Marks "<<i+1<<" : ";
+        cin >> mark[i];
+    }
+        
 
     // Arrays start form 0 index, so an array of 4 elements will have values upto 3
     // Printng Array
