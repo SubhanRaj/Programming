@@ -6,7 +6,7 @@ class A
 public:
     int x;
 
-public:
+// public:
     A()
     {
         x = 10;
