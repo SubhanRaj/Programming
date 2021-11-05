@@ -3,18 +3,18 @@
 #include <iostream>
 using namespace std;
 
-class Shape
+class Shape // base class
 {
 public:
-    virtual void draw() = 0;
+    virtual void draw() = 0; // pure virtual function
 };
 
-class Circle : public Shape
+class Circle : public Shape // derived class
 {
 public:
-    void draw()
+    void draw() // overridding the pure virtual function
     {
-        cout << "Circle::draw()" << endl;
+        cout << "Circle::draw()" << endl; // implementation of the pure virtual function
     }
 };
 
@@ -27,7 +27,6 @@ public:
     }
 };
 
-
 int main()
 {
     Shape *shape = new Circle();
@@ -38,4 +37,3 @@ int main()
 
     return 0;
 }
-
