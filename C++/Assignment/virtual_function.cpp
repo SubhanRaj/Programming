@@ -17,7 +17,7 @@ public:
         strcpy(title, s);
         price = a;
     }
-    virtual void display() {}
+    virtual void display(){};
 };
 
 class book : public media // defining derived class 'book' which is derived from 'media'
@@ -29,7 +29,7 @@ public:
     {
         pages = p;
     }
-    void display() {}
+    void display();
 };
 
 class tape : public media // defining derived class 'tape' which is derived from 'media'
@@ -41,7 +41,7 @@ public:
     {
         time = t;
     }
-    void display() {}
+    void display();
 };
 
 void book ::display() // function to display book details
