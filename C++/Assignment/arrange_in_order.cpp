@@ -1,4 +1,5 @@
-/* C++ program to sort & arrange an array of integers and floating point numbers in ascending order using functions */
+/* C++ program to sort & arrange an array of integers and floating point numbers in ascending
+ order using functions */
 
 #include <iostream>
 using namespace std;
