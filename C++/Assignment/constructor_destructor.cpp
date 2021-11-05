@@ -13,13 +13,19 @@ public:
     {
         cout << "Constructor is called" << endl;
     }
-    ~Constructor() // 
+    
+};
+class Destructor : public Constructor // derived class
+{
+    public:
+    ~Destructor() //
     {
         cout << "Destructor is called" << endl;
     }
 };
+
 int main()
 {
-    Constructor obj;
+    Destructor obj;
     return 0;
 }
