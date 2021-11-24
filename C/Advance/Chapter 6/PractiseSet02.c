@@ -3,7 +3,10 @@
 and prints its address. 
 Are these address same? Why? */
 // Author : Subhan Raj
-void printAdd(int a);
+void printAdd(int a)
+{
+    printf("\nThe address of variable a is %u\n", &a);
+}
 int main()
 {
 
@@ -15,7 +18,3 @@ int main()
     printf("\nThe address of variable i is %u\n", &i);
     return 0;
 }
-void printAdd(int a)
-{
-    printf("\nThe address of variable a is %u\n", &a);
-} 
