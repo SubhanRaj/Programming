@@ -14,6 +14,6 @@ int main()
     {
         printf("\nThe marks obtained by student %d is %d.\n", i + 1, marks[i]);
     }
-    
-        return 0;
+
+    return 0;
 }
