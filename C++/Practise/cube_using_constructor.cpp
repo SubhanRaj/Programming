@@ -5,14 +5,13 @@ using namespace std;
 class Cube
 
 {
-    public: 
+public:
     Cube()
     {
         int n;
-        cout<<"Enter a number: ";  
-        cin>>n;
-        cout<<"Cube of "<<n<<" is "<<n*n*n<<endl;
-
+        cout << "Enter a number: ";
+        cin >> n;
+        cout << "Cube of " << n << " is " << n * n * n << endl;
     }
 };
 
