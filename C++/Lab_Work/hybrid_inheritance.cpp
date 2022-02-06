@@ -50,8 +50,8 @@ class result : public add, public sub
 public:
     void display()
     {
-        cout << "\nSum of " << num1 << " and " << num2 << " = " << sum;
-        cout << "\nDifference of " << n1 << " and " << n2 << "= " << diff;
+        cout << "\nSum of " << num1 << " and " << num2 << " = " << sum << endl;
+        cout << "\nDifference of " << n1 << " and " << n2 << "= " << diff << endl;
     }
 };
 int main()
