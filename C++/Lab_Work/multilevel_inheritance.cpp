@@ -12,7 +12,7 @@ public:
     // 'n' number of input
     int n;
     // Array for storing the numbers
-    int Num[];
+    int Num[100];
     // Function to get the numbers
     void get_data()
     {
