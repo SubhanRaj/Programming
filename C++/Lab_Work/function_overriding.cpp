@@ -13,12 +13,12 @@ public:
     virtual void Display()
     {
         cout << "\nThis is Display() method"
-                " of BaseClass";
+                " of BaseClass"<<endl;
     }
     void Show()
     {
         cout << "\nThis is Show() method "
-                "of BaseClass";
+                "of BaseClass"<<endl;
     }
 };
 

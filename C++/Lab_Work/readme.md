@@ -5,7 +5,7 @@
 3. WAP to show the concept of friend function.
 4. WAP to show the concept ot virtual function.
 5. WAP to illustrate an abstract class.
-6. WAP to illustrate function overloading.
+6. WAP to illustrate function overriding.
 7. WAP to illustrate<br>
    a. Function Overloading<br>
    b. Operator Overloading<br>
