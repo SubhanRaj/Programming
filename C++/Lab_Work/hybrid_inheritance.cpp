@@ -5,8 +5,13 @@
 using namespace std;
 class arithmetic
 {
-protected:
+public:
     int num1, num2;
+};
+class add : public arithmetic
+{
+public:
+    int sum;
 
 public:
     void getdata()
@@ -17,14 +22,9 @@ public:
         cout << "\nEnter the second number: ";
         cin >> num2;
     }
-};
-class add : public arithmetic
-{
-protected:
-    int sum;
 
 public:
-    add()
+    void addition()
     {
         sum = num1 + num2;
     }
@@ -50,6 +50,7 @@ class result : public add, public sub
 public:
     void display()
     {
+        addition();
         cout << "\nSum of " << num1 << " and " << num2 << " = " << sum << endl;
         cout << "\nDifference of " << n1 << " and " << n2 << "= " << diff << endl;
     }
