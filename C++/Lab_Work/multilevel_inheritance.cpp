@@ -1,5 +1,5 @@
 // C++ program to demonstrate multilevel inheritance
-/* This prrogram takes 'n' numbers in inout class using get_data() function
+/* This program takes 'n' numbers in input class using get_data() function
     then add them in Addition class and then give average of numbers using Avg class
     and finally display the result using display() function.
 */
