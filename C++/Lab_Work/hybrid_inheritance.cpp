@@ -1,6 +1,9 @@
 // C++ program to illustrate the concept of hybrid inheritance
 
 #include <iostream>
+#include <string>
+#include <stdlib.h>
+
 using namespace std;
 class arithmetic
 {
@@ -17,24 +20,24 @@ public:
         cin >> num2;
     }
 };
-class plus : public arithmetic
+class add : public arithmetic
 {
 protected:
     int sum;
 
 public:
-    void add()
+    add()
     {
         sum = num1 + num2;
     }
 };
-class minus
+class sub
 {
 protected:
     int n1, n2, diff;
 
 public:
-    void sub()
+    sub()
     {
         cout << "\nFor Subtraction:";
         cout << "\nEnter the first number: ";
@@ -44,7 +47,7 @@ public:
         diff = n1 - n2;
     }
 };
-class result : public plus, public minus
+class result : public add, public sub
 {
 public:
     void display()
